@@ -1,11 +1,11 @@
 {
   "name": "batteryincluded",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A TypeScript client for the BatteryIncluded API",
   "author": "Frederik Bußmann <frederik@bussmann.io>",
   "license": "MIT",
-  "repository": "freb97/batteryincluded",
+  "repository": "freb97/batteryincluded-ts",
   "exports": {
     ".": "./dist/index.mjs"
   },
