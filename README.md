@@ -109,11 +109,11 @@ Published under the [MIT License](https://github.com/freb97/autodisco/tree/main/
 [github-actions-src]: https://github.com/freb97/batteryincluded-ts/actions/workflows/test.yml/badge.svg
 [github-actions-href]: https://github.com/freb97/batteryincluded-ts/actions
 
-[npm-version-src]: https://img.shields.io/npm/v/batteryincluded-ts/latest.svg?style=flat&colorA=18181B&colorB=31C553
-[npm-version-href]: https://npmjs.com/package/batteryincluded-ts
+[npm-version-src]: https://img.shields.io/npm/v/batteryincluded/latest.svg?style=flat&colorA=18181B&colorB=31C553
+[npm-version-href]: https://npmjs.com/package/batteryincluded
 
-[npm-last-update-src]: https://img.shields.io/npm/last-update/batteryincluded-ts.svg?style=flat&colorA=18181B&colorB=31C553
-[npm-last-update-href]: https://npmjs.com/package/batteryincluded-ts
+[npm-last-update-src]: https://img.shields.io/npm/last-update/batteryincluded.svg?style=flat&colorA=18181B&colorB=31C553
+[npm-last-update-href]: https://npmjs.com/package/batteryincluded
 
 [license-src]: https://img.shields.io/github/license/freb97/batteryincluded-ts.svg?style=flat&colorA=18181B&colorB=31C553
 [license-href]: https://github.com/freb97/batteryincluded-ts/tree/main/LICENSE
