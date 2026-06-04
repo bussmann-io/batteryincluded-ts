@@ -16,7 +16,7 @@ Provides type-safe access to the BatteryIncluded API for search, filters, recomm
 
 ## Installation
 
-```bash
+```sh
 npm install batteryincluded
 ```
 
@@ -31,7 +31,7 @@ BATTERYINCLUDED_API_KEY=your-api-key
 
 2. Run the CLI to generate types based on your collection schema:
 
-```bash
+```sh
 npx batteryincluded ./path/to/output/dir
 ```
 
@@ -41,8 +41,8 @@ npx batteryincluded ./path/to/output/dir
 import { createClient } from 'batteryincluded'
 
 const client = createClient({
-  collection: 'my-collection-name',
-  apiKey: 'my-api-key',
+  collection: 'your-collection-name',
+  apiKey: 'your-api-key',
 })
 
 const { data, error } = await client.GET('/browse', {
