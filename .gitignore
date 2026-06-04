@@ -1,0 +1,16 @@
+node_modules
+coverage
+dist
+.vscode
+.DS_Store
+.eslintcache
+*.log*
+*.env
+
+# Generated files
+/batteryincluded
+.autodisco
+/autodisco/
+/autodisco.config.*
+test/.outputs/
+test.js

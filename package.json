@@ -1,0 +1,40 @@
+{
+  "name": "batteryincluded",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A TypeScript client for the BatteryIncluded API",
+  "author": "Frederik Bußmann <frederik@bussmann.io>",
+  "license": "MIT",
+  "repository": "freb97/batteryincluded",
+  "exports": {
+    ".": "./dist/index.mjs"
+  },
+  "types": "./dist/index.d.mts",
+  "bin": {
+    "batteryincluded": "dist/cli/index.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "obuild",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepack": "bun run build",
+    "release": "bun test && npm publish && git push --follow-tags",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "autodisco": "^2.0.4",
+    "citty": "^0.2.2",
+    "dotenv": "^17.4.2",
+    "openapi-fetch": "^0.17.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^9.0.0",
+    "@types/node": "^24",
+    "eslint": "^10.4.1",
+    "obuild": "^0.4.34",
+    "typescript": "^6.0.3"
+  }
+}
