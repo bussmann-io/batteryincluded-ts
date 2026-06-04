@@ -156,6 +156,14 @@ const command = defineCommand({
           id: recommendationId,
         },
       },
+
+      '/similar-search': {
+        query: {
+          q: suggestQuery,
+        },
+      },
+
+      '/presets': {},
     })
 
     // Run discovery to generate OpenAPI schema and types based on the provided config

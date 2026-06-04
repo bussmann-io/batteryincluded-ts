@@ -5,7 +5,7 @@
     "": {
       "name": "batteryincluded",
       "dependencies": {
-        "autodisco": "^2.0.4",
+        "autodisco": "^2.0.5",
         "c12": "^4.0.0-beta.5",
         "citty": "^0.2.2",
         "defu": "^6.1.7",
@@ -296,7 +296,7 @@
 
     "ast-kit": ["ast-kit@3.0.0-beta.1", "", { "dependencies": { "@babel/parser": "^8.0.0-beta.4", "estree-walker": "^3.0.3", "pathe": "^2.0.3" } }, "sha512-trmleAnZ2PxN/loHWVhhx1qeOHSRXq4TDsBBxq3GqeJitfk3+jTQ+v/C1km/KYq9M7wKqCewMh+/NAvVH7m+bw=="],
 
-    "autodisco": ["autodisco@2.0.4", "", { "dependencies": { "c12": "^3.3.4", "citty": "^0.2.2", "consola": "^3.4.2", "defu": "^6.1.7", "hookable": "^6.1.1", "knip": "^6.11.0", "ufo": "^1.6.4", "zod": "^4.4.2", "zod-openapi": "^5.4.6" }, "peerDependencies": { "openapi-typescript": "^7.13.0" }, "bin": { "discover": "dist/cli/index.mjs" } }, "sha512-oszaB3oe69eTTZ85T0USwmzRrQr29mZMNcMY1hBaIQBCHeQVntZR68oGBsTLC9zYo0NblN6v6Y7IW+I3kN7oNw=="],
+    "autodisco": ["autodisco@2.0.5", "", { "dependencies": { "c12": "^3.3.4", "citty": "^0.2.2", "consola": "^3.4.2", "defu": "^6.1.7", "hookable": "^6.1.1", "knip": "^6.11.0", "ufo": "^1.6.4", "zod": "^4.4.2", "zod-openapi": "^5.4.6" }, "peerDependencies": { "openapi-typescript": "^7.13.0" }, "bin": { "discover": "dist/cli/index.mjs" } }, "sha512-cDWemVLRBPM5d9isPfeemPJLNo7/kqsQCWxXi5dx1M8cImf3kU7GxTF8/egMLEhltny41hPWNeuPe1RlVXxwJA=="],
 
     "balanced-match": ["balanced-match@4.0.4", "", {}, "sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA=="],
 
