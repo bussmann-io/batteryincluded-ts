@@ -6,6 +6,7 @@
   "author": "Frederik Bußmann <frederik@bussmann.io>",
   "license": "MIT",
   "repository": "freb97/batteryincluded-ts",
+  "keywords": ["batteryincluded", "api", "sdk", "typescript", "e-commerce", "ai", "search"],
   "exports": {
     ".": "./dist/index.mjs"
   },
