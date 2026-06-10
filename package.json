@@ -5,7 +5,7 @@
   "description": "A TypeScript client for the BatteryIncluded API",
   "author": "Frederik Bußmann <frederik@bussmann.io>",
   "license": "MIT",
-  "repository": "freb97/batteryincluded-ts",
+  "repository": "bussmann-io/batteryincluded-ts",
   "keywords": ["batteryincluded", "api", "sdk", "typescript", "e-commerce", "ai", "search"],
   "exports": {
     ".": "./dist/index.mjs"

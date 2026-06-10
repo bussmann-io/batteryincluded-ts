@@ -104,10 +104,10 @@ For more information on the code generator and how to customize the probe config
 
 ## License
 
-Published under the [MIT License](https://github.com/freb97/autodisco/tree/main/LICENSE).
+Published under the [MIT License](https://github.com/bussmann-io/batteryincluded-ts/tree/main/LICENSE).
 
-[github-actions-src]: https://github.com/freb97/batteryincluded-ts/actions/workflows/test.yml/badge.svg
-[github-actions-href]: https://github.com/freb97/batteryincluded-ts/actions
+[github-actions-src]: https://github.com/bussmann-io/batteryincluded-ts/actions/workflows/test.yml/badge.svg
+[github-actions-href]: https://github.com/bussmann-io/batteryincluded-ts/actions
 
 [npm-version-src]: https://img.shields.io/npm/v/batteryincluded/latest.svg?style=flat&colorA=18181B&colorB=31C553
 [npm-version-href]: https://npmjs.com/package/batteryincluded
@@ -115,5 +115,5 @@ Published under the [MIT License](https://github.com/freb97/autodisco/tree/main/
 [npm-last-update-src]: https://img.shields.io/npm/last-update/batteryincluded.svg?style=flat&colorA=18181B&colorB=31C553
 [npm-last-update-href]: https://npmjs.com/package/batteryincluded
 
-[license-src]: https://img.shields.io/github/license/freb97/batteryincluded-ts.svg?style=flat&colorA=18181B&colorB=31C553
-[license-href]: https://github.com/freb97/batteryincluded-ts/tree/main/LICENSE
+[license-src]: https://img.shields.io/github/license/bussmann-io/batteryincluded-ts.svg?style=flat&colorA=18181B&colorB=31C553
+[license-href]: https://github.com/bussmann-io/batteryincluded-ts/tree/main/LICENSE
