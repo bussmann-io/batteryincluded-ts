@@ -1,4 +1,4 @@
-import type { Browse } from './responses'
+import type { Browse } from '.'
 
 /**
  * Facet type representing the shape of a facet in the Browse response. It can be either a select facet or a range facet, depending on the type of the facet in the Browse response.
