@@ -1,47 +1,50 @@
 import type { Filter } from './types'
 
-function fieldToLabel(field: string, labelMap: Record<string, string>): string {
-  return labelMap[field] ?? field
-}
+/**
+ * Transforms a given filter object into URLSearchParams format.
+ *
+ * @param filter BatteryIncluded filter object.
+ *
+ * @returns URLSearchParams object containing the filter parameters.
+ */
+export function filterToSearchParams(filter: Filter): URLSearchParams {
+  const searchParams = new URLSearchParams()
 
-function labelToField(label: string, labelMap: Record<string, string>): string {
-  const entry = Object.entries(labelMap).find(([, value]) => value === label)
-  return entry ? entry[0] : label
-}
-
-export function queryToFilters(query: URLSearchParams, labelMap: Record<string, string> = {}): Filter[] {
-  const filters: Filter[] = []
-
-  try {
-    const filtersJson = query.get('filters') as string | undefined
-
-    if (filtersJson) {
-      const filtersObj = JSON.parse(filtersJson) as Record<string, string[] | { min?: string, max?: string }>
-
-      Object.entries(filtersObj).forEach(([field, values]) => {
-        filters.push({ field: fieldToLabel(field, labelMap), values })
-      })
+  for (const key in filter) {
+    const value = filter[key]
+    if (Array.isArray(value)) {
+      value.forEach(v => searchParams.append(key, v))
+    }
+    else if (value) {
+      searchParams.append(key, value.toString())
     }
   }
-  catch (error) {
-    console.error('Failed to parse filters from query:', error)
-  }
 
-  return filters
+  return searchParams
 }
 
-export function filtersToQuery(filters: Filter[], labelMap: Record<string, string> = {}): URLSearchParams {
-  const query = new URLSearchParams()
+/**
+ * Transforms given URLSearchParams into a filter object.
+ *
+ * @param searchParams URLSearchParams object containing the filter parameters.
+ *
+ * @returns BatteryIncluded filter object.
+ */
+export function searchParamsToFilter(searchParams: URLSearchParams): Filter {
+  const filter: Filter = {}
 
-  const filtersObj: Record<string, string[] | { min?: string, max?: string }> = {}
+  for (const [key, value] of searchParams.entries()) {
+    if (key.endsWith('[]')) {
+      if (!filter[key]) {
+        filter[key] = []
+      }
 
-  filters.forEach(({ field, values }) => {
-    filtersObj[labelToField(field, labelMap)] = values
-  })
-
-  if (Object.keys(filtersObj).length > 0) {
-    query.set('filters', JSON.stringify(filtersObj))
+      (filter[key] as string[]).push(value)
+    }
+    else {
+      filter[key] = Number(value)
+    }
   }
 
-  return query
+  return filter
 }

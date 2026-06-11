@@ -97,6 +97,11 @@ export default defineCodegenConfig({
       per_page: 100,
     },
   },
+  '/suggest': {
+    query: {
+      q: 'custom search term'
+    }
+  }
 })
 ```
 
