@@ -61,5 +61,4 @@ jobs:
         run: bun run build
 
       - name: Release module
-        run: |
-          npm publish
+        run: npm publish

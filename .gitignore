@@ -12,5 +12,5 @@ dist
 .autodisco
 /autodisco/
 /autodisco.config.*
-test/.outputs/
+test/.artifacts/
 test.js

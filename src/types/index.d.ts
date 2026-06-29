@@ -30,4 +30,18 @@ export type Highlights = components['schemas']['GetApiV1CollectionsDocumentsHigh
  */
 export type Recommendations = components['schemas']['GetApiV1CollectionsDocumentsRecommendations']
 
+/**
+ * Similar search query response type, representing the shape of the response returned by the API when performing a similar search query.
+ *
+ * @see https://www.postman.com/batteryincluded/core/request/mjujfc7/similar-search
+ */
+export type SimilarSearch = components['schemas']['GetApiV1CollectionsDocumentsSimilarSearch']
+
+/**
+ * Presets query response type, representing the shape of the response returned by the API when performing a presets query.
+ *
+ * @see https://www.postman.com/batteryincluded/core/request/dkv351x/presets
+ */
+export type Presets = components['schemas']['GetApiV1CollectionsDocumentsPresets']
+
 export * from './filters'
