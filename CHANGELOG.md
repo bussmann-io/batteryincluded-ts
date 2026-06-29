@@ -1,3 +1,8 @@
+# 1.0.3
+- Added similar-search and preset query types
+- Added unit tests
+- Bumped dependencies
+
 # 1.0.2
 - Updated filter and facet types
 

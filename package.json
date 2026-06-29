@@ -1,7 +1,7 @@
 {
   "name": "batteryincluded",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A TypeScript client for the BatteryIncluded API",
   "author": "Frederik Bußmann <frederik@bussmann.io>",
   "license": "MIT",
