@@ -2,6 +2,7 @@
   "name": "batteryincluded",
   "type": "module",
   "version": "1.0.3",
+  "packageManager": "pnpm@11.22.0",
   "description": "A TypeScript client for the BatteryIncluded API",
   "author": "Frederik Bußmann <frederik@bussmann.io>",
   "license": "MIT",
@@ -21,7 +22,7 @@
     "build": "obuild",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prepack": "bun run build",
+    "prepack": "pnpm run build",
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
   },
