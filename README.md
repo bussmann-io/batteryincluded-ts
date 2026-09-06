@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <img src="https://batteryincluded.ai/wp-content/uploads/2026/04/full-logo-compact-4c-header.webp" alt="BatteryIncluded" width="290">
+    <img src="https://batteryincluded.ai/images/logo-header.webp" alt="BatteryIncluded" width="290">
   </picture>
 </p>
 
