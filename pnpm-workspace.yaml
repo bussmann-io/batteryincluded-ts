@@ -1,6 +1,13 @@
-shellEmulator: true
+minimumReleaseAgeExcludePrune: true
+minimumReleaseAgeExclude:
+  - autodisco@2.1.0 # own package, installed right after its release
 
 trustPolicy: no-downgrade
+trustPolicyExcludePrune: true
+trustPolicyExclude:
+  - why-is-node-running@3.2.2 # required by vitest 5, published without the provenance 3.2.0 and 3.2.1 have
+
+shellEmulator: true
 
 allowBuilds:
   msw: true

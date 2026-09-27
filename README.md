@@ -105,7 +105,7 @@ export default defineCodegenConfig({
 })
 ```
 
-For more information on the code generator and how to customize the probe configuration, see the [AutoDisco](https://github.com/freb97/autodisco) documentation.
+For more information on the code generator and how to customize the probe configuration, see the [AutoDisco](https://github.com/bussmann-io/autodisco) documentation.
 
 ## License
 
