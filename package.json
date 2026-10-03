@@ -2,7 +2,7 @@
   "name": "batteryincluded",
   "type": "module",
   "version": "1.0.4",
-  "packageManager": "pnpm@12.8.1",
+  "packageManager": "pnpm@12.8.2",
   "description": "A TypeScript client for the BatteryIncluded API",
   "author": "Frederik Bußmann <frederik@bussmann.io>",
   "license": "MIT",
