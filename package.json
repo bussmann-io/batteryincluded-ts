@@ -2,7 +2,7 @@
   "name": "batteryincluded",
   "type": "module",
   "version": "1.0.4",
-  "packageManager": "pnpm@12.9.0",
+  "packageManager": "pnpm@12.14.0",
   "description": "A TypeScript client for the BatteryIncluded API",
   "author": "Frederik Bußmann <frederik@bussmann.io>",
   "license": "MIT",
@@ -39,17 +39,17 @@
     "c12": "^4.0.0-rc.2",
     "citty": "^0.2.2",
     "defu": "^6.1.7",
-    "dotenv": "^18.0.5",
+    "dotenv": "^18.0.8",
     "jiti": "^2.7.0",
     "openapi-fetch": "^0.17.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^9.5.1",
-    "@types/node": "^24.19.1",
+    "@types/node": "^24.19.2",
     "eslint": "^10.12.0",
-    "msw": "^3.0.2",
-    "obuild": "^0.4.43",
+    "msw": "^3.0.3",
+    "obuild": "^0.4.45",
     "typescript": "^6.0.3",
-    "vitest": "^5.0.3"
+    "vitest": "^5.0.5"
   }
 }
