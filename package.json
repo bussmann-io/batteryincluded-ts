@@ -35,8 +35,8 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "autodisco": "^2.1.0",
-    "c12": "^4.0.0-rc.3",
+    "autodisco": "^2.1.1",
+    "c12": "^4.0.0-rc.4",
     "citty": "^0.2.2",
     "defu": "^6.1.7",
     "dotenv": "^18.0.9",
